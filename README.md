@@ -1,6 +1,6 @@
 # QA-Manual-Courses-Jan-23 & May-23
 
-* QA Basics
+* QA Basics:
 
 1. QA Basics
 
