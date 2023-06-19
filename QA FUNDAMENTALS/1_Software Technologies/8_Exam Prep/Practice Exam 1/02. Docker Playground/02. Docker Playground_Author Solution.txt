@@ -1,0 +1,9 @@
+//Commands:
+
+apk add wget
+wget https://api.zippopotam.us/us/90202
+cksum 90202
+
+//Result:
+
+3590438057 224 90202
