@@ -1,0 +1,15 @@
+"ID","Title","Assigned To","Automation Type","Case ID","Comment","Defects","Elapsed","Estimate","Expected Result","Forecast","Goals","In Progress","Mission","Plan","Plan ID","Preconditions","Priority","References","Run","Run Configuration","Run ID","Section","Section Depth","Section Description","Section Hierarchy","Status","Steps","Steps","Steps (Actual Result)","Steps (Additional Info)","Steps (Expected Result)","Steps (Expected Result)","Steps (References)","Steps (Shared step ID)","Steps (Status)","Steps (Step)","Steps (Step)","Template","Tested By","Tested On","Type","Version"
+"T113","TC01: Hot drink","Desi Test"," None","C224","","","","","Dispense the hot drink with milk and sugar","","","","","","","a hot drink (e.g., tea or coffee) - add milk - add sugar - dispense the drink
+ 
+","Medium","","Statement and Decision Testing - Vending machine","","R10","Test Cases","0","","Test Cases","Passed","1. Decide to take a hot drink
+2. Add milk
+3. Add sugar
+ 
+","","","","","","","","","","","Test Case (Text)","Desi Test","21/07/2023 16:52","Functional",""
+"T114","TC02: Cold drink","Desi Test"," None","C225","","","","","Dispense the drink","","","","","","","Get a cold drink - dispense the drink","Medium","","Statement and Decision Testing - Vending machine","","R10","Test Cases","0","","Test Cases","Passed","1. Request a cold drink","","","","","","","","","","","Test Case (Text)","Desi Test","21/07/2023 16:52","Functional",""
+"T115","TC03: Valid for 100% branch coverage","Desi Test"," None","C226","","","","","Dispense the hot drink without milk and sugar","","","","","","","a hot drink (e.g., tea or coffee) - no milk - no sugar - dispense the drink","Medium","","Statement and Decision Testing - Vending machine","","R10","Test Cases","0","","Test Cases","Failed","Decide to take a hot drink
+Don't add milk
+Don't add sugar","","","","","","","","","","","Test Case (Text)","Desi Test","21/07/2023 16:52","Other",""
+
+
+
