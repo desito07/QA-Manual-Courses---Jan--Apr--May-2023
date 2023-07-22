@@ -1,0 +1,255 @@
+{
+	"info": {
+		"_postman_id": "d48cc3ba-b8db-4019-ae47-964b0824a7a8",
+		"name": "Catch Hook Stuff",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17924483"
+	},
+	"item": [
+		{
+			"name": "https://test-hooks.akerolabs.com/catch/5fb4f3d20e7f9f1c745d8b6e/630f1c5ab92dec26ef489b5d",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstname\": \"{{$randomFirstName}}\",\n    \"lastname\": \"{{$randomLastName}}\",\n    \"email\": \"desislava.andreeva+postman{{$randomInt}}{{$randomInt}}{{$randomInt}}@akerolabs.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://test-hooks.akerolabs.com/catch/5fb4f3d20e7f9f1c745d8b6e/630f1c5ab92dec26ef489b5d",
+					"protocol": "https",
+					"host": [
+						"test-hooks",
+						"akerolabs",
+						"com"
+					],
+					"path": [
+						"catch",
+						"5fb4f3d20e7f9f1c745d8b6e",
+						"630f1c5ab92dec26ef489b5d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://hooks.akerolabs.com/catch/5422c63042a74b0800ea3484/63a421228b349f2103eec810",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"row\": [\n    {\n      \"email\": \"desislava.andreeva+123@akerolabs.com\",\n      \"fname\": \"Des\",\n      \"type-3\": \"Parent / Guardian\",\n      \"lname\": \"Test\"\n    },\n    {\n      \"email\": \"desislava.andreeva+456@akerolabs.com\",\n      \"fname\": \"Desi\",\n      \"type-3\": \"Parent / Guardian\",\n      \"lname\": \"Andreeva\"\n    }\n  ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hooks.akerolabs.com/catch/5422c63042a74b0800ea3484/63a421228b349f2103eec810",
+					"protocol": "https",
+					"host": [
+						"hooks",
+						"akerolabs",
+						"com"
+					],
+					"path": [
+						"catch",
+						"5422c63042a74b0800ea3484",
+						"63a421228b349f2103eec810"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://client-upload.akerolabs.com/b8es4/newsletter.json",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"row\": [\n    {\n      \"email\": \"desislava.andreeva+123@akerolabs.com\",\n      \"fname\": \"Des\",\n      \"type-3\": \"Parent / Guardian\"\n    },\n    {\n      \"email\": \"desislava.andreeva+456@akerolabs.com\",\n      \"fname\": \"Desi\",\n      \"type-3\": \"Parent / Guardian\"\n    }\n  ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://client-upload.akerolabs.com/b8es4/newsletter.json",
+					"protocol": "https",
+					"host": [
+						"client-upload",
+						"akerolabs",
+						"com"
+					],
+					"path": [
+						"b8es4",
+						"newsletter.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://client-upload.akerolabs.com/b8es4/contact.json",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"value\": {\n        \"row\": [\n            {\n                \"@odata.etag\": \"W/\\\"621514376\\\"\",\n                \"log_contactprogramid\": \"a5f9dd3a-133c-ec11-b6e5-0022480a6e9d\",\n                \"log_year\":  \"2222\",\n                \"log_applicationstatusdate\":  \"2023-11-02\",\n                \"log_cancellationreason\":  \"Select Four\",\n                \"log_term\": \"Fall\",\n                \"log_programstatus\": \"Conditionally Accepted\",\n                \"log_applicationdecisiondate\":  \"2031-11-02\",\n                \"First\": \"Dylan\",\n                \"Last\": \"Boil\",\n                \"Email\": \"dylanb@gmail.com\",\n                \"ApplicationStatus\": \"Application Received\",\n                \"ApplicationDecision\": \"Application Received\",\n                \"Deleted\": false\n            },\n            {\n                \"@odata.etag\": \"W/\\\"621514376\\\"\",\n                \"log_contactprogramid\": \"a5f9dd3a-133c-ec11-b6e5-0022480a6e9d\",\n                \"log_year\":  \"2222\",\n                \"AkeroID\": \"1234567890\",\n                \"log_applicationstatusdate\":  \"2023-11-02\",\n                \"log_cancellationreason\":  \"Select Four\",\n                \"log_term\": \"Fall\",\n                \"log_programstatus\": \"Conditionally Accepted\",\n                \"log_applicationdecisiondate\":  \"2031-11-02\",\n                \"First\": \"Hugo\",\n                \"Last\": \"Kennedy\",\n                \"Email\": \"hugok@gmail.com\",\n                \"ApplicationStatus\": \"Application Received\",\n                \"ApplicationDecision\": \"Application Received\",\n                \"Deleted\": false\n            }\n        ],\n        \"lish\": {\n            \"ness\": true\n        }\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://client-upload.akerolabs.com/dzygh/DynamicsLead.json",
+					"protocol": "https",
+					"host": [
+						"client-upload",
+						"akerolabs",
+						"com"
+					],
+					"path": [
+						"dzygh",
+						"DynamicsLead.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://client-upload.akerolabs.com/b8es4/applications.json",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"value\": {\n        \"row\": [\n            {\n                \"@odata.etag\": \"W/\\\"621514376\\\"\",\n                \"log_contactprogramid\": \"a5f9dd3a-133c-ec11-b6e5-0022480a6e9d\",\n                \"AkeroID\": \"000000003\",\n                \"First\": \"Desi\",\n                \"Last\": \"Andreeva\",\n                \"Email\": \"testme1234@gmail.com\",\n                \"ApplicationStatus\": \"Application Received\",\n                \"ApplicationDecision\": \"Denied\",\n                \"Deleted\": false,\n                \"FavouritePokemon\": \"Squirtle\"\n            },\n            {\n                \"@odata.etag\": \"W/\\\"621514376\\\"\",\n                \"log_contactprogramid\": \"a5f9dd3a-133c-ec11-b6e5-0022480a6e9d\",\n                \"AkeroID\": \"000000004\",\n                \"First\": \"Des\",\n                \"Last\": \"Mess\",\n                \"Email\": \"desi11234@gmail.com\",\n                \"ApplicationStatus\": \"Application Received\",\n                \"ApplicationDecision\": \"Approved\",\n                \"Deleted\": false,\n                \"FavouritePokemon\": \"Charmander\"\n            }\n        ],\n        \"lish\": {\n            \"ness\": true\n        }\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://client-upload.akerolabs.com/b8es4/applications.json",
+					"protocol": "https",
+					"host": [
+						"client-upload",
+						"akerolabs",
+						"com"
+					],
+					"path": [
+						"b8es4",
+						"applications.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://test-hooks.xequalsenroll.com/catch/63989a3f1dce5213d2d7912e/643554221c3ae34687ac84b4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstname\": \"{{$randomFirstName}}\",\n    \"lastname\": \"{{$randomLastName}}\",\n    \"email\": \"desislava.andreeva+postman{{$randomInt}}{{$randomInt}}{{$randomInt}}@akerolabs.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://test-hooks.xequalsenroll.com/catch/63989a3f1dce5213d2d7912e/643554221c3ae34687ac84b4",
+					"protocol": "https",
+					"host": [
+						"test-hooks",
+						"xequalsenroll",
+						"com"
+					],
+					"path": [
+						"catch",
+						"63989a3f1dce5213d2d7912e",
+						"643554221c3ae34687ac84b4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://test-hooks.akerolabs.com/catch/5fb4f3d20e7f9f1c745d8b6e/649d6af6cacfe421911760cf",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"data\": {\n    \"key\": \"julielloyd113001@gmail.com\",\n    \"item\": {\n      \"SlateID\": \"344502344\",\n      \"First\": \"Julie\",\n      \"Last\": \"Brady\",\n      \"Email\": \"julielloyd113001@gmail.com\",\n      \"UTMCampaign\": \"nn-2223-ug-chsp-rn-to-bsn\",\n      \"UTMMedium\": \"dsa-rsa\",\n      \"UTMSource\": \"google\",\n      \"UTMTerm\": \"ohio rn\",\n      \"Center\": \"ugrd\",\n      \"SubmissionDateTime\": \"2023-06-28T11:58:30\",\n      \"_ak\": {\n        \"key\": \"julielloyd113001@gmail.com\",\n        \"safe\": true\n      }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://test-hooks.akerolabs.com/catch/5fb4f3d20e7f9f1c745d8b6e/649d6af6cacfe421911760cf",
+					"protocol": "https",
+					"host": [
+						"test-hooks",
+						"akerolabs",
+						"com"
+					],
+					"path": [
+						"catch",
+						"5fb4f3d20e7f9f1c745d8b6e",
+						"649d6af6cacfe421911760cf"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://test-hooks.akerolabs.com/catch/5fb4f3d20e7f9f1c745d8b6e/649d6af6cacfe421911760cf",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstname\": \"{{$randomFirstName}}\",\n    \"lastname\": \"{{$randomLastName}}\",\n    \"email\": \"desislava.andreeva+postman{{$randomInt}}{{$randomInt}}{{$randomInt}}@akerolabs.com\",\n    \"UTMCampaign\": \"nn-1234-test-hey-ho-test\",\n    \"UTMMedium\": \"facebook-test\",\n    \"UTMSource\": \"facebook\",\n    \"UTMTerm\": \"test-rn-test\",\n    \"UTMContent\": \"test ohio test\",\n    \"Program of Interest\": \"Hehehehehehehehe\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://test-hooks.akerolabs.com/catch/5fb4f3d20e7f9f1c745d8b6e/649d6af6cacfe421911760cf",
+					"protocol": "https",
+					"host": [
+						"test-hooks",
+						"akerolabs",
+						"com"
+					],
+					"path": [
+						"catch",
+						"5fb4f3d20e7f9f1c745d8b6e",
+						"649d6af6cacfe421911760cf"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

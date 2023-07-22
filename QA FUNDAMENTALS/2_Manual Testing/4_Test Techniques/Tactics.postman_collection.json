@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "781b5239-5c67-453f-be8d-8b1ac89237cf",
+		"name": "Tactics",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17924483"
+	},
+	"item": [
+		{
+			"name": "Tactic Create Lorem Ipsum",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic ZGVzaXNsYXZhLmFuZHJlZXZhK3N1cGVyYWRtaW5AYWtlcm9sYWJzLmNvbTp3ZXk4dmFmZi1idXJ0NlpBQg==",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"quoteUpdatedOn\": \"2022-08-15T12:16:33.872Z\",\n    \"tactic\": {\n        \"accountName\": \"Desislava Andreeva NN\",\n        \"data\": {\n            \"tags\": [],\n            \"scheduleType\": \"standard\",\n            \"scheduleEntries\": [\n                {\n                    \"start\": \"2022-08-15T00:00:00.000Z\",\n                    \"end\": \"2023-12-31T00:00:00.000Z\",\n                    \"properties\": {}\n                }\n            ],\n            \"flightAssets\": [],\n            \"countries\": [\n                {\n                    \"country\": \"gb\",\n                    \"countryName\": \"United Kingdom\",\n                    \"countryLocations\": []\n                }\n            ],\n            \"targetRegion\": false,\n            \"assetType\": \"standard\",\n            \"addonProvisionPreferences\": {},\n            \"targetAudienceAgeRange\": {\n                \"start\": 12,\n                \"end\": 12,\n                \"min\": 12,\n                \"max\": 12\n            },\n            \"tlaVariables\": [],\n            \"creativeDimensions\": [],\n            \"includeOnDashboard\": true,\n            \"budget\": 100,\n            \"estimateOverridesEnabled\": false,\n            \"estimatedClicksOverride\": 0,\n            \"estimatedImpressionsOverride\": 0,\n            \"forecastTactics\": [],\n            \"utm\": {\n                \"campaign\": \"nn-campaign-with-a-lot-of-stuff\",\n                \"source\": \"instagram\",\n                \"medium\": null\n            },\n            \"forecastMatchesKPI\": false,\n            \"funnelStage\": \"attention\",\n            \"keywordType\": null,\n            \"assetsDeadlineOffset\": 10,\n            \"buildDate\": \"2022-08-11T00:00:00.000Z\",\n            \"market\": \"uk\",\n            \"targetAudience\": \"students\",\n            \"targetSector\": \"further-education\",\n            \"estimatedCPM\": 0,\n            \"estimatedCTR\": 0,\n            \"estimatedImpressions\": 0,\n            \"estimatedClicks\": 0,\n            \"actualImpressions\": 0,\n            \"actualClicks\": 0,\n            \"actualSpend\": 0,\n            \"actualLeads\": 0,\n            \"buildAndOptimisationFees\": 0,\n            \"adServingFees\": 0,\n            \"mgmtFeeBiddable\": 0,\n            \"mgmtFeePlanning\": 0,\n            \"mgmtFeeTech\": 0,\n            \"mgmtFeeOverall\": 0,\n            \"dailySpend\": 0,\n            \"estimatedLeadsOverride\": 0,\n            \"leadBenchmarksEnabled\": 0,\n            \"estimatedLeads\": 0,\n            \"adServingFeeExclusiveBudget\": 0,\n            \"mgmtFeeDirectMedia\": 0,\n            \"mgmtFeeTechTax\": 0,\n            \"primaryKPI\": \"impressions\",\n            \"guaranteedKPI\": \"impressions\",\n            \"KPIValue\": 1000\n        },\n        \"pricing\": {\n            \"pricingType\": \"standard\",\n            \"feeCode\": 30,\n            \"feeCodeSchedule\": [],\n            \"feeCodeScheduleEnabled\": false,\n            \"commission\": 0,\n            \"commissionInclusiveOfSpend\": true,\n            \"fees\": [],\n            \"calculatedMetricOverride\": null,\n            \"exchangeRate\": null,\n            \"allocatedSpend\": 0,\n            \"allocatedSpendConverted\": 0,\n            \"dailyAllocatedSpend\": 0\n        },\n        \"owner\": {\n            \"user\": \"5fb26e0431f7a85f665bde07\",\n            \"userName\": \"Desislava Andreeva (Agency Admin)\"\n        },\n        \"deadlines\": {},\n        \"customOrder\": 0,\n        \"assignees\": {\n            \"planner\": \"5fb26e0431f7a85f665bde07\",\n            \"plannerName\": \"Desislava Andreeva (Agency Admin)\",\n            \"mediaBuyer\": \"5fb26e0431f7a85f665bde07\",\n            \"mediaBuyerName\": \"Desislava Andreeva (Agency Admin)\",\n            \"paidMediaAnalyst\": \"5fb26e0431f7a85f665bde07\",\n            \"paidMediaAnalystName\": \"Desislava Andreeva (Agency Admin)\",\n            \"accountPlanner\": \"5fb26e0431f7a85f665bde07\",\n            \"accountPlannerName\": \"Desislava Andreeva (Agency Admin)\"\n        },\n        \"assetRequired\": true,\n        \"projectName\": \"{{$randomLoremWords}}\",\n        \"platform\": \"605207e9a64d192c89e01c7b\",\n        \"publisherType\": \"biddable\",\n        \"isSpec\": true,\n        \"adType\": \"605207e9a64d192c89e01c7c\",\n        \"adTypeType\": \"biddable\",\n        \"channel\": \"social_media\",\n        \"startDate\": \"2022-08-15T00:00:00.000Z\",\n        \"endDate\": \"2023-12-31T00:00:00.000Z\",\n        \"isDraft\": false,\n        \"projectNameInternal\": \"2022 - {{$randomLoremWords}} - Instagram - Stories\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://test-api.akerolabs.com/agency-ad-quote/63d3ac7e6eaa680d8fd61b57/tactics",
+					"protocol": "https",
+					"host": [
+						"test-api",
+						"akerolabs",
+						"com"
+					],
+					"path": [
+						"agency-ad-quote",
+						"63d3ac7e6eaa680d8fd61b57",
+						"tactics"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

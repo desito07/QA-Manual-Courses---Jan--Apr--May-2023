@@ -1,0 +1,34 @@
+"ID","Title","Automation Type","Created By","Created On","Estimate","Expected Result","Forecast","Goals","Mission","Preconditions","Priority","References","Section","Section Depth","Section Description","Section Hierarchy","Steps","Steps","Steps (Additional Info)","Steps (Expected Result)","Steps (References)","Steps (Shared step ID)","Steps (Step)","Suite","Suite ID","Template","Type","Updated By","Updated On"
+"C282","TC01: Valid username"," None","Desi Test","22/07/2023 20:28","","valid username","","","","A username consists of no less than 6 letters AND numbers.","Medium","","Test Cases","0","","Test Cases","1. Go to the app and start creating a new user.
+2. Create a username: testDesi07","","","","","","","Exploratory Testing - Registration Form","S22","Test Case (Text)","Functional","Desi Test","22/07/2023 20:42"
+"C283","TC02: Valid email address"," None","Desi Test","22/07/2023 20:28","","valid email address and confirmation from the system","","","","E-mail should be valid e.g., something /at/ something /dot/ something","Medium","","Test Cases","0","","Test Cases","1. Go to the app.
+2. After creating a new user, now use the proper email address: desito07@gmail.com","","","","","","","Exploratory Testing - Registration Form","S22","Test Case (Text)","Functional","Desi Test","22/07/2023 20:29"
+"C284","TC03: Valid password"," None","Desi Test","22/07/2023 20:29","","","","","","Password should be minimum 6 characters and maximum 12 characters. Uppers case, lower case, number,
+and special character required.","Medium","","Test Cases","0","","Test Cases","1. Go to the app
+2. After adding a valid username and email, create a new password: Password123*","","","","","","","Exploratory Testing - Registration Form","S22","Test Case (Text)","Functional","Desi Test","22/07/2023 20:31"
+"C285","TC04: Confimr matched password"," None","Desi Test","22/07/2023 20:31","","password should match and system should show up a message about it ","","","","Confirm password should match the password.","Medium","","Test Cases","0","","Test Cases","1. Go to the app.
+2. Create a new username, use a valid email address and create a new password.
+3. Confirm the newly created password to match the original. ","","","","","","","Exploratory Testing - Registration Form","S22","Test Case (Text)","Functional","Desi Test","22/07/2023 20:33"
+"C286","TC05: Clear Form should clear all fields."," None","Desi Test","22/07/2023 20:33","","the entered information should be cleared out","","","","Clear Form should clear all fields.","Medium","","Test Cases","0","","Test Cases","1. Go to the app.
+2. Create a new username, use a valid email, and create a valid password
+3. User decides not to go register and wants to clear the form field. 
+4. Click on the 'Clear Form' button
+
+
+ ","","","","","","","Exploratory Testing - Registration Form","S22","Test Case (Text)","Functional","Desi Test","22/07/2023 20:36"
+"C287","TC06: Redirect to another page"," None","Desi Test","22/07/2023 20:36","","The page should redirect the user to another page. A message “You are now logged in.” should appear on the screen.","","","","Create account redirects to another page and “You are now logged in.” message should appear. ","Medium","","Test Cases","0","","Test Cases","1. Go to the app.
+2. Star filling the form like create a new username, add a valid email, create a new password, and repeat the password. 
+After filling out the form, click on the 'Create Account' button.","","","","","","","Exploratory Testing - Registration Form","S22","Test Case (Text)","Functional","Desi Test","22/07/2023 20:39"
+"C288","TCA07: Invalid username"," None","Desi Test","22/07/2023 20:40","","error message ","","",""," Invalid username","Medium","","Test Cases","0","","Test Cases","Enter the username: HeyHohey%","","","","","","","Exploratory Testing - Registration Form","S22","Test Case (Text)","Functional","Desi Test","22/07/2023 20:42"
+"C289","TC08: Invalid email"," None","Desi Test","22/07/2023 20:42","","error message ","","","","Invalid email ","Medium","","Test Cases","0","","Test Cases","Enter fkjsdt56sfdg.com","","","","","","","Exploratory Testing - Registration Form","S22","Test Case (Text)","Functional","Desi Test","22/07/2023 20:43"
+"C290","TC09: Invalid password"," None","Desi Test","22/07/2023 20:44","","error message","","","","Use an invalid password","Medium","","Test Cases","0","","Test Cases","Enter the following password: sdafdsafdsafsdsfsgdsfdsfdsfdsf","","","","","","","Exploratory Testing - Registration Form","S22","Test Case (Text)","Functional","Desi Test","22/07/2023 20:45"
+"C291","TC10: Do not confirm password"," None","Desi Test","22/07/2023 20:45","","","","","","Do not confirm the password","Medium","","Test Cases","0","","Test Cases","When creating a new password, leave the repeat password field blank ","","","","","","","Exploratory Testing - Registration Form","S22","Test Case (Text)","Functional","Desi Test","22/07/2023 20:47"
+"C292","TC11: Clear form not clearing the input"," None","Desi Test","22/07/2023 20:52","","the input stays and not cleared ","","","","Clear form not clearing the input","Medium","","Test Cases","0","","Test Cases","1. Fill in the form 
+2. Clear the input by clicking on the 'Clear Form' button
+ ","","","","","","","Exploratory Testing - Registration Form","S22","Test Case (Text)","Functional","Desi Test","22/07/2023 20:53"
+"C293","TC12: Redirects is not working"," None","Desi Test","22/07/2023 20:53","","the page is not re-directing after clicking on the 'Create Account' button, the page is still the same, and no confirmation the account has been created. There is an error in the console in Dev tools.","","","","Redirects is not working","Medium","","Test Cases","0","","Test Cases","1. Fill in the form 
+2. Click on the 'Create Account' button
+
+
+ ","","","","","","","Exploratory Testing - Registration Form","S22","Test Case (Text)","Functional","Desi Test","22/07/2023 20:55"
+"C294","TC13: Confirm Email field is not correct wording"," None","Desi Test","22/07/2023 20:58","","It should say """"Confirm password'","","","","Confirm Email field is not the correct wording ","Medium","","Test Cases","0","","Test Cases","","","","","","","","Exploratory Testing - Registration Form","S22","Test Case (Text)","Functional","Desi Test","22/07/2023 21:00"
