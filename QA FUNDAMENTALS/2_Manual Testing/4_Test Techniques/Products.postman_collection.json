@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "3b7ca1c9-bee9-434b-ac09-de1a25b8bb99",
+		"name": "Products",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17924483"
+	},
+	"item": [
+		{
+			"name": "https://test-api.akerolabs.com/agency-ad-quote/62fa16a4b6f6073cbae3d5ea/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic ZGVzaXNsYXZhLmFuZHJlZXZhK3N1cGVyYWRtaW5AYWtlcm9sYWJzLmNvbTp3ZXk4dmFmZi1idXJ0NlpBQg==",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product\": {\n        \"uid\": \"\",\n        \"agencyProduct\": \"628e0d13e404562041ea1f02\",\n        \"team\": \"creative\",\n        \"pricing\": {\n            \"currency\": \"GBP\"\n        },\n        \"data\": {\n            \"agencyProductName\": \"{{$randomLoremWords}}\",\n            \"nameClientFriendly\": \"{{$randomLoremWords}}\",\n            \"descriptionClient\": \"-\",\n            \"descriptionInternal\": \"{{$randomLoremWords}}\",\n            \"quantity\": 1,\n            \"unit\": \"hour\",\n            \"unitPrice\": 10,\n            \"numberOfUnits\": 8.5,\n            \"vat\": false,\n            \"mgmtFeeTotal\": 0,\n            \"additionalFees\": \"no_fee\",\n            \"discount\": 0,\n            \"totalDiscount\": 0,\n            \"totalLinePrice\": 85,\n            \"totalPrice\": 85,\n            \"totalFee\": 0,\n            \"totalVat\": 0,\n            \"totalCost\": 85,\n            \"vatRate\": null,\n            \"unitPriceEditable\": false,\n            \"discountEligible\": true\n        },\n        \"source\": {\n            \"productId\": \"\",\n            \"campaignQuote\": \"\",\n            \"campaignName\": \"\",\n            \"campaignUid\": \"\"\n        },\n        \"changeHistory\": [],\n        \"_additions\": {\n            \"additionalFeesLabel\": \"No Fee\",\n            \"teamLabel\": \"Creative\",\n            \"hasUnmergedChangeSetEntry\": false\n        },\n        \"isMediaPlanAmendsProduct\": false\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://test-api.akerolabs.com/agency-ad-quote/62fa16a4b6f6073cbae3d5ea/products",
+					"protocol": "https",
+					"host": [
+						"test-api",
+						"akerolabs",
+						"com"
+					],
+					"path": [
+						"agency-ad-quote",
+						"62fa16a4b6f6073cbae3d5ea",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://test-api.akerolabs.com/agency-ad-quote/63b6f292d9dfa36b81e75fce/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic ZGVzaXNsYXZhLmFuZHJlZXZhK3N1cGVyYWRtaW5AYWtlcm9sYWJzLmNvbTp3ZXk4dmFmZi1idXJ0NlpBQg==",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product\": {\n        \"uid\": \"\",\n        \"agencyProduct\": \"628e0d13e404562041ea1f02\",\n        \"team\": \"creative\",\n        \"pricing\": {\n            \"currency\": \"GBP\"\n        },\n        \"data\": {\n            \"agencyProductName\": \"{{$randomLoremWords}}\",\n            \"nameClientFriendly\": \"{{$randomLoremWords}}\",\n            \"descriptionClient\": \"-\",\n            \"descriptionInternal\": \"{{$randomLoremWords}}\",\n            \"quantity\": 1,\n            \"unit\": \"hour\",\n            \"unitPrice\": 10,\n            \"numberOfUnits\": 8.5,\n            \"vat\": false,\n            \"mgmtFeeTotal\": 0,\n            \"additionalFees\": \"no_fee\",\n            \"discount\": 0,\n            \"totalDiscount\": 0,\n            \"totalLinePrice\": 85,\n            \"totalPrice\": 85,\n            \"totalFee\": 0,\n            \"totalVat\": 0,\n            \"totalCost\": 85,\n            \"vatRate\": null,\n            \"unitPriceEditable\": false,\n            \"discountEligible\": true\n        },\n        \"source\": {\n            \"productId\": \"\",\n            \"campaignQuote\": \"\",\n            \"campaignName\": \"\",\n            \"campaignUid\": \"\"\n        },\n        \"changeHistory\": [],\n        \"_additions\": {\n            \"additionalFeesLabel\": \"No Fee\",\n            \"teamLabel\": \"Creative\",\n            \"hasUnmergedChangeSetEntry\": false\n        },\n        \"isMediaPlanAmendsProduct\": false\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://test-api.akerolabs.com/agency-ad-quote/62fa16a4b6f6073cbae3d5ea/products",
+					"protocol": "https",
+					"host": [
+						"test-api",
+						"akerolabs",
+						"com"
+					],
+					"path": [
+						"agency-ad-quote",
+						"62fa16a4b6f6073cbae3d5ea",
+						"products"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

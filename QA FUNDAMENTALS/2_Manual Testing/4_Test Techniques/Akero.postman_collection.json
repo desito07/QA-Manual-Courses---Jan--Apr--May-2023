@@ -1,0 +1,380 @@
+{
+	"info": {
+		"_postman_id": "cc0681d8-bb4f-40f9-b2d9-dd60a5a1d7d4",
+		"name": "Akero",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17924483"
+	},
+	"item": [
+		{
+			"name": "qa kent",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Sad3Ieu0w",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "kent",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "authority",
+						"value": "test-api.akerolabs.com"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-GB,en-US;q=0.9,en;q=0.8"
+					},
+					{
+						"key": "authorization",
+						"value": "Basic ZGVzaXNsYXZhLmFuZHJlZXZhK2FnZW5jeXF1ZXJ5QGFrZXJvbGFicy5jb206QVlDLXJxdS5ramU2dmZjQGJmeQ=="
+					},
+					{
+						"key": "origin",
+						"value": "https://test-admin.akerolabs.com"
+					},
+					{
+						"key": "referer",
+						"value": "https://test-admin.akerolabs.com/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"101\", \"Google Chrome\";v=\"101\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-site"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"FirstName\": \"Test First Name\",\n  \"LastName\": \"Test Last Name\",\n  \"EmailAddress\": \"test@example.com\",\n  \"Mobile\": \"023 43553344\",\n  \"SubjectAreaOfInterest\": \"Test value\",\n  \"YearofEntry\": \"2024\",\n  \"CountriesWorld\": \"UNITED KINGDOM\",\n  \"Notes\": \"POSTMAN TEST\",\n  \"Sourcetag\": \"kent_wf_xx_akero lead extract UG course_xx_xx_xx-xx-xxxx\",\n  \"UTM_Campaign\": \"Test\",\n  \"UTM_Source\": \"Test\",\n  \"UTM_Medium\": \"Test\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://enquiryapi-emea.qses-uat.com/EnquiryApi/studentEnquiries",
+					"protocol": "https",
+					"host": [
+						"enquiryapi-emea",
+						"qses-uat",
+						"com"
+					],
+					"path": [
+						"EnquiryApi",
+						"studentEnquiries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://test-api.akerolabs.com/campaigns/agency/52e62a3161e6cb0b00932457/insight?deleted=\\{%22$ne%22:true\\}&overrideAccess=true&populate=account%20campaign&filters=account%20agency%20campaign%20publishedByName%20publishedOn%20type%20content%20title%20star",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authority",
+						"value": "test-api.akerolabs.com"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-GB,en-US;q=0.9,en;q=0.8"
+					},
+					{
+						"key": "authorization",
+						"value": "Basic ZGVzaXNsYXZhLmFuZHJlZXZhK2FnZW5jeXF1ZXJ5QGFrZXJvbGFicy5jb206QVlDLXJxdS5ramU2dmZjQGJmeQ=="
+					},
+					{
+						"key": "origin",
+						"value": "https://test-admin.akerolabs.com"
+					},
+					{
+						"key": "referer",
+						"value": "https://test-admin.akerolabs.com/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"101\", \"Google Chrome\";v=\"101\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-site"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36"
+					}
+				],
+				"url": {
+					"raw": "https://test-api.akerolabs.com/campaigns/agency/52e62a3161e6cb0b00932457/insight?deleted=\\{%22$ne%22:true\\}&overrideAccess=true&populate=account%20campaign&filters=account%20agency%20campaign%20publishedByName%20publishedOn%20type%20content%20title%20startDate%20endDate&sort=-publishedOn&per_page=20&page=1&cacheBuster=1652270384595",
+					"protocol": "https",
+					"host": [
+						"test-api",
+						"akerolabs",
+						"com"
+					],
+					"path": [
+						"campaigns",
+						"agency",
+						"52e62a3161e6cb0b00932457",
+						"insight"
+					],
+					"query": [
+						{
+							"key": "deleted",
+							"value": "\\{%22$ne%22:true\\}"
+						},
+						{
+							"key": "overrideAccess",
+							"value": "true"
+						},
+						{
+							"key": "populate",
+							"value": "account%20campaign"
+						},
+						{
+							"key": "filters",
+							"value": "account%20agency%20campaign%20publishedByName%20publishedOn%20type%20content%20title%20startDate%20endDate"
+						},
+						{
+							"key": "sort",
+							"value": "-publishedOn"
+						},
+						{
+							"key": "per_page",
+							"value": "20"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "cacheBuster",
+							"value": "1652270384595"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://test-api.akerolabs.com/campaigns/agency/52035c0b01bb5a9b5d130923/insight?agency=52035c0b01bb5a9b5d130923&deleted=\\{%22$ne%22:true\\}&overrideAccess=true&populate=account%20campaign&filters=account%20agency%20campaign%20publishedByName%20publishedOn",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "authority",
+						"value": "test-api.akerolabs.com"
+					},
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-GB,en-US;q=0.9,en;q=0.8"
+					},
+					{
+						"key": "authorization",
+						"value": "Basic ZGVzaXNsYXZhLmFuZHJlZXZhK2FnZW5jeXF1ZXJ5QGFrZXJvbGFicy5jb206QVlDLXJxdS5ramU2dmZjQGJmeQ=="
+					},
+					{
+						"key": "origin",
+						"value": "https://test-admin.akerolabs.com"
+					},
+					{
+						"key": "referer",
+						"value": "https://test-admin.akerolabs.com/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"101\", \"Google Chrome\";v=\"101\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"macOS\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-site"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36"
+					}
+				],
+				"url": {
+					"raw": "https://test-api.akerolabs.com/campaigns/agency/52035c0b01bb5a9b5d130923/insight?agency=52035c0b01bb5a9b5d130923&deleted=\\{%22$ne%22:true\\}&overrideAccess=true&populate=account%20campaign&filters=account%20agency%20campaign%20publishedByName%20publishedOn%20type%20content%20title%20startDate%20endDate&sort=-publishedOn&per_page=20&page=1&cacheBuster=1652271553540",
+					"protocol": "https",
+					"host": [
+						"test-api",
+						"akerolabs",
+						"com"
+					],
+					"path": [
+						"campaigns",
+						"agency",
+						"52035c0b01bb5a9b5d130923",
+						"insight"
+					],
+					"query": [
+						{
+							"key": "agency",
+							"value": "52035c0b01bb5a9b5d130923"
+						},
+						{
+							"key": "deleted",
+							"value": "\\{%22$ne%22:true\\}"
+						},
+						{
+							"key": "overrideAccess",
+							"value": "true"
+						},
+						{
+							"key": "populate",
+							"value": "account%20campaign"
+						},
+						{
+							"key": "filters",
+							"value": "account%20agency%20campaign%20publishedByName%20publishedOn%20type%20content%20title%20startDate%20endDate"
+						},
+						{
+							"key": "sort",
+							"value": "-publishedOn"
+						},
+						{
+							"key": "per_page",
+							"value": "20"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "cacheBuster",
+							"value": "1652271553540"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://test-apps.akerolabs.com/desislava-andreeva-nn-account/choo-choo\",\n                        \"new\"",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "SPOP-nawn*hain2cheg",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "desislava.andreeva+agencyadmin@akerolabs.com",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://test-apps.akerolabs.com/desislava-andreeva-nn-account/choo-choo\",\n                        \"new\"",
+					"protocol": "https",
+					"host": [
+						"test-apps",
+						"akerolabs",
+						"com"
+					],
+					"path": [
+						"desislava-andreeva-nn-account",
+						"choo-choo\",\n                        \"new\""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
