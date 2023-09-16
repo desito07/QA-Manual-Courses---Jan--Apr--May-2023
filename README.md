@@ -1,6 +1,6 @@
 # QA-Manual-Courses - Jan-23 & Apr 23 & May-23
 
-1. ISTQB Course Materials - Apr 23
+1. ISTQB Course Materials - Sep 23
 
 2. QA Basics - Jan 23
  - Software Quality Assurance Introduction
